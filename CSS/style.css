@@ -1,0 +1,150 @@
+
+.texto-principal{
+  color: aliceblue;
+}
+
+body{
+  background-color: rgb(58, 70, 38);
+  background-size: contain;
+}
+
+main{
+  background-color: rgb(58, 70, 38);
+
+}
+
+/*HEADER-MENU*/ 
+.cajaPrincipal{
+  background-color: darkolivegreen;
+  height: 150px;
+  width: 100%;
+  list-style: none;
+}
+
+header{
+  background-color: darkolivegreen;
+  background-image: url(/images/header-leaf.jpg); 
+  border: 2px black solid;
+  background-repeat: none;
+  position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.imgLogo{
+  width: 150px;
+  height: 150px;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+   }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration:overline;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+
+  /*BLOG-->*/
+  .blog1{
+    border-radius: 0px;
+    background-color: rgb(58, 70, 38);
+    padding: 20px;
+    text-align: left;
+  }
+  .blog2{
+    border-radius: 0px;
+    background-color: rgb(58, 70, 38);
+    padding: 20px;
+    text-align: left;
+  }
+
+  /*CONTENEDOR PADRE*/
+.gridBlog{
+  display: grid;
+   /*CONFIGURO DE MANERA EXPLICITA*/
+   /* grid-template-columns: 50% 50% ; */
+   grid-template-columns: repeat(4,1fr) ;
+   grid-template-rows: 1fr 1fr 1fr;
+   /*Genera espacios entre filas y columnas*/
+   /* column-gap: 3px; */
+   /* row-gap: 8px; */
+   gap: 10px;
+}
+/*<--BLOG*/
+
+/*CONTACTO -->*/
+input{
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+} 
+
+textarea{
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+/* Submit button*/
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Moving mouse over submit button*/
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* background color form */
+.container {
+  border-radius: 5px;
+  background-color: rgb(58, 70, 38);
+  padding: 20px;
+}
+/*<--CONTACTO*/
+
+
+/*FOOTER -->*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:rgb(37, 104, 37);
+  color: white;
+}
+/*<--FOOTER*/
