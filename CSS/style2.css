@@ -1,9 +1,15 @@
-/* body{
+body{
     background-color: black;
-} */
+}
+
+.headerText{
+    color: orangered;
+    font-weight: bold;
+}
 
 /* .imageLogo{
     width: 100;
     height: 100;
 
 } */
+
