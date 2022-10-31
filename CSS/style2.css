@@ -20,7 +20,10 @@ body{
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-
+    .img-index-cards{
+        width: 250px;
+        height: 140px;
+    }
 }
 
 /* Small Devices, Tablets */
