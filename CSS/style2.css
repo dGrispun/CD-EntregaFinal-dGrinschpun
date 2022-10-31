@@ -7,13 +7,6 @@ body{
     font-weight: bold;
 }
 
-/* .imageLogo{
-    width: 100;
-    height: 100;
-
-} */
-
-
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
@@ -21,6 +14,7 @@ body{
         /* width: 250px;
         height: 140px; */
     }
+
 }
 
 /* Extra Small Devices, Phones */ 
