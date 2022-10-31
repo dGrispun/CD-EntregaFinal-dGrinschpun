@@ -15,7 +15,10 @@ body{
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-
+    .img-index-cards{
+        width: 250px;
+        height: 140px;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -28,7 +31,10 @@ body{
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+    .img-index-cards{
+        width: 250px;
+        height: 140px;
+    }
 }
 
 /* Medium Devices, Desktops */
