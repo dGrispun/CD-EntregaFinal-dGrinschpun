@@ -10,10 +10,18 @@ body{
   height: 120px;
 }
 
+.tamLogoFooter{
+  width: 100px;
+  height: 70px;
+}
+
 .headerText{
     color: orangered;
     font-weight: bold;
     font-size: 25px;
+}
+.footerText{
+  color: orangered;
 }
 
 h3{
@@ -79,8 +87,8 @@ background-color: orangered;
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 769px) and (max-width : 992px) {
       .img-index-cards{
-        width: 350px;
-        height: 240px;
+        width: 300px;
+        height: 220px;
      }
      
      @keyframes float {
@@ -116,9 +124,10 @@ background-color: orangered;
 @media only screen and (min-width : 993px) 
 {
   .img-index-cards{
-    width: 350px;
-    height: 270px;
+    width: 300px;
+    height: 220px;
  }
+ 
      @keyframes float {
         0% {
           box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -152,4 +161,42 @@ background-color: orangered;
   margin: 0 auto; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
+}
+
+
+/*CONTACTO -->*/
+input{
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+} 
+
+textarea{
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+/* Submit button*/
+input[type=submit] {
+  background-color: orangered;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Moving mouse over submit button*/
+input[type=submit]:hover {
+  background-color: orange;
 }
