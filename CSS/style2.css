@@ -1,3 +1,7 @@
+header{
+  background-color: black;
+}
+
 body{
     background-color: black;
 }
@@ -12,29 +16,35 @@ body{
     font-size: 25px;
 }
 
-.navbar-toggler {
-  border-color: orangered;
+h3{
+  color: orangered;
 }
+p{
+  color: white;
+}
+/* .navbar-toggler {
+  border-color: orangered;
+} */
 
-.navbar-toggler-icon{
+/* .navbar-toggler-icon{
 background-color: orangered;
 
-}
+} */
 
-
+/* 
 .fuentesNav {
   font-size: 3rem;
   padding-left: 2rem;
   color: orangered;
-}
+} */
 
-.botonCangreBurguer {
+/* .botonCangreBurguer {
   height: 5rem;
   width: 5rem;
   color: orangered;
    background-color: black; 
 
-}
+} */
 
 
 
@@ -44,10 +54,7 @@ background-color: orangered;
         width: 250px;
         height: 140px;
     }
-    .tamLogo{
-      width: 50px;
-      height: 50px;
-    }
+   
 
 }
 
@@ -57,10 +64,7 @@ background-color: orangered;
         width: 250px;
         height: 140px;
     }
-    .tamLogo{
-      width: 50px;
-      height: 50px;
-    }
+  
 }
 
 /* Small Devices, Tablets */
@@ -69,10 +73,7 @@ background-color: orangered;
         width: 250px;
         height: 140px;
     }
-    .tamLogo{
-      width: 50px;
-      height: 50px;
-    }
+  
 }
 
 /* Medium Devices, Desktops */
