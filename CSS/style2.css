@@ -23,12 +23,14 @@ body{
 }
 
 .headerText .activePage{
-  
     color:orange;  
   
 }
 
 .footerText{
+  color: orangered;
+}
+.contactText{
   color: orangered;
 }
 
