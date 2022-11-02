@@ -44,7 +44,10 @@ background-color: orangered;
         width: 250px;
         height: 140px;
     }
-  
+    .tamLogo{
+      width: 50;
+      height: 50;
+    }
 
 }
 
@@ -54,7 +57,10 @@ background-color: orangered;
         width: 250px;
         height: 140px;
     }
-    
+    .tamLogo{
+      width: 50;
+      height: 50;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -63,7 +69,10 @@ background-color: orangered;
         width: 250px;
         height: 140px;
     }
-   
+    .tamLogo{
+      width: 50;
+      height: 50;
+    }
 }
 
 /* Medium Devices, Desktops */
