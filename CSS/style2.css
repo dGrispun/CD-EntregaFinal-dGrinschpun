@@ -5,6 +5,7 @@ header{
 body{
     background-color: black;
 }
+
 .tamLogo{
   width: 150px;
   height: 120px;
@@ -20,6 +21,13 @@ body{
     font-weight: bold;
     font-size: 25px;
 }
+
+.headerText .activePage{
+  
+    color:orange;  
+  
+}
+
 .footerText{
   color: orangered;
 }
