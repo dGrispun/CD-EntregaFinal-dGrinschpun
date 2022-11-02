@@ -1,11 +1,41 @@
 body{
     background-color: black;
 }
+.tamLogo{
+  width: 150px;
+  height: 120px;
+}
 
 .headerText{
     color: orangered;
     font-weight: bold;
+    font-size: 25px;
 }
+
+.navbar-toggler {
+  border-color: orangered;
+}
+
+.navbar-toggler-icon{
+background-color: orangered;
+
+}
+
+
+.fuentesNav {
+  font-size: 3rem;
+  padding-left: 2rem;
+  color: orangered;
+}
+
+.botonCangreBurguer {
+  height: 5rem;
+  width: 5rem;
+  color: orangered;
+   background-color: black; 
+
+}
+
 
 
 /* Custom, iPhone Retina */ 
@@ -24,7 +54,7 @@ body{
         width: 250px;
         height: 140px;
     }
-  
+    
 }
 
 /* Small Devices, Tablets */

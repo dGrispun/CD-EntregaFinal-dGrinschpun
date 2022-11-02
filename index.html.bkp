@@ -15,16 +15,18 @@
 
 <body>
 	<!--Start Header -->
-	<!-- <header>
+	<header>
 	  <div class="px-3 py-2 text-bg-dark">
 		<div class="container">
 		  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+			
 			<a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
 				<img alt="logo" src="images/logo/Logo-removebg-preview.png"	width=160" height="90">
 			</a>
 			<ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small nav-ul-header">
 			  <li>
-				<a href="index.html" class="nav-link text-secondary"> 
+				<a href="index.html" class="nav-link text-secondary">
+				  <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg> -->
 				  <div class="headerText avatar">
 				  Home
 				</div>
@@ -32,6 +34,7 @@
 			  </li>
 			  <li>
 				<a href="pages/blog.html" class="nav-link text-white">
+				  <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg> -->
 				  <div class="headerText avatar">
 				  Blog
 				  </div>
@@ -39,6 +42,7 @@
 			  </li>
 			  <li>
 				<a href="pages/producto.html" class="nav-link text-white">
+				  <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg> -->
 				  <div class="headerText avatar">
 				  Producto
 				  </div>
@@ -46,6 +50,7 @@
 			  </li>
 			  <li>
 				<a href="pages/nosotros.html" class="nav-link text-white">
+				  <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg> -->
 				  <div class="headerText avatar">
 				  Nosotros
 				  </div>
@@ -53,6 +58,7 @@
 			  </li>
 			  <li>
 				<a href="pages/contacto.html" class="nav-link text-white">
+				  <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg> -->
 				  <div class="headerText avatar"> 
 				  Contacto
 				  </div>
@@ -62,42 +68,7 @@
 		  </div>
 		</div>
 	  </div>
-	</header> -->
-	<!-- NAVBAR -->
-    <header class="encabezado">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img class="tamLogo" src="images/logo/Logo-removebg-preview.png" alt="Logo"></a>
-                <button class="navbar-toggler botonCangreBurguer" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item fuentesNav">
-                            <a class="nav-link headerText" aria-current="page" href="#">Index</a>
-                        </li>
-                        <li class="nav-item fuentesNav">
-                            <a class="nav-link headerText" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item fuentesNav">
-                            <a class="nav-link headerText" href="#">Nosotros</a>
-                        </li>
-                        <li class="nav-item fuentesNav">
-                            <a class="nav-link headerText">Producto</a>
-                        </li>
-						<li class="nav-item fuentesNav">
-                            <a class="nav-link headerText">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-		</div>
-        </nav>
-	</div>
-	
-    </header>
+	</header>
   	<!--End Header -->
 	<!-- Start Main -->
 	<!-- Start Imagenes-->
