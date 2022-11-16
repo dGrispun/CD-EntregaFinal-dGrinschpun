@@ -1,3 +1,40 @@
+/*CONTACTO -->*/
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Submit button*/
+input[type=submit] {
+  background-color: orangered;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: orange;
+}
+
+/* Moving mouse over submit button*/
 header,
 body {
   background-color: black;
@@ -26,11 +63,14 @@ h1 {
 }
 
 .headerText {
-  color: orangered;
   font-weight: bold;
   font-size: 25px;
+  color: orangered;
 }
-.headerText .activePage {
+
+.activePage {
+  font-weight: bold;
+  font-size: 25px;
   color: orange;
 }
 
@@ -139,44 +179,5 @@ p {
   margin-bottom: 10px;
   /* Added */
 }
-
-/*CONTACTO -->*/
-input {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  /* Rounded borders */
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-/* Submit button*/
-input[type=submit] {
-  background-color: orangered;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-input[type=submit]:hover {
-  background-color: orange;
-}
-
-/* Moving mouse over submit button*/
 
 /*# sourceMappingURL=style2.css.map */
